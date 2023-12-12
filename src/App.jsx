@@ -7,8 +7,8 @@ function App() {
     return (
     <BrowserRouter>
         <Routes>
-            <Route path='/' element={<Main/>}/>
-            <Route path='*' element={<Page404/>}/>
+            <Route path='*' element={<Main/>}/>
+            {/*<Route path='*' element={<Page404/>}/>*/}
         </Routes>
     </BrowserRouter>)
 }

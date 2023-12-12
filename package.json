@@ -7,12 +7,14 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d src/dist",
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build1": "vite build",
+    "preview": "vite preview",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.32",
@@ -22,5 +24,17 @@
     "react-router-dom": "^6.10.0",
     "sass": "^1.60.0",
     "vite": "^4.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
